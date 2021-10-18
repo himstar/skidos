@@ -1,0 +1,33 @@
+.App {
+  text-align: left;
+}
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  height: 60px;
+}
+.mic {
+  background: url('./assets/microphone.png');
+  width: 54px;
+  width: 48px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 12px;
+}
+.blink, .listening {
+  animation: blinker 1s linear infinite;
+}
+.pull-right {
+  float: right;
+}
+.hide {
+  display: none;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}

@@ -1,0 +1,16 @@
+[{
+	"Question": "Mention any one algorithm to find distance between 2 words",
+	"Answer": "Levenshtein distance"
+},
+{
+	"Question": "Mention any 1 library to do state management in reactjs",
+	"Answer": "Redux"
+},
+{
+	"Question": "Does a vector has both a magnitude and a direction",
+	"Answer": "Yes"
+},
+{
+	"Question": "Is it funny to hear data joke",
+	"Answer": "Yes"
+}]
